@@ -18,7 +18,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7378971459:AAEQ7-U2_pz3uV5p1FEhgc56ueeYodTR2wY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "20366634")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "72095ec36984aa9ceb0dbaa9cec31559") #Your API Hash from my.telegram.org
 #--------------------------------------------
@@ -36,8 +36,8 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/anielitetelugu")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://ibb.co/8nNxGGzH")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://ibb.co/8nNxGGzH")
+START_PIC = os.environ.get("START_PIC", "https://ibb.co/j96KS8Px")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://ibb.co/j96KS8Px")
 #--------------------------------------------
 
 #--------------------------------------------
